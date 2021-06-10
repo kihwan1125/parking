@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="실시간 주차장 확인"
+        android:textColor="#FAFA1B"
+        android:textSize="40dp"
+        android:translationZ="100dp" />
+
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="130dp"
+        android:drawableTop="@drawable/seloco_right"
+        android:gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="198dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="150dp"
+        android:background="@drawable/custom_button"
+        android:text="관리자 호출"
+        android:textColor="#FAFA1B"
+        android:textSize="30dp"
+        android:translationZ="10dp"
+        />
+
+</FrameLayout>
