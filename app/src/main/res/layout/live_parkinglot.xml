@@ -19,8 +19,9 @@
         android:id="@+id/et_number"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:inputType="number"
+        android:inputType="text"
         android:hint="차량 번호"
+        android:maxLength="8"
     />
     <Button
         android:layout_width="wrap_content"
@@ -31,7 +32,14 @@
         android:textColor="#fff"
         android:textStyle="bold"
         android:id="@+id/btn3"
+
     />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="해당 주차장으로 설정"
+        android:textStyle="bold"
+        android:id="@+id/btn7"/>
 
 
 

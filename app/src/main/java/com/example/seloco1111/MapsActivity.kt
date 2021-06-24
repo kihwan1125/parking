@@ -1,10 +1,12 @@
 package com.example.seloco1111
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
+import net.daum.mf.map.api.MapPoint
 import net.daum.mf.map.api.MapView
 
 
@@ -15,8 +17,22 @@ class MapsActivity : AppCompatActivity(){
         setContentView(R.layout.activity_maps)
 
         val mapView = MapView(this)
-        val mapViewContainer = findViewById<View>(R.id.map_view) as ViewGroup
+        val mapViewContainer = findViewById<View>(R.id.mapView) as RelativeLayout
         mapViewContainer.addView(mapView)
 
+
+        mapView.setMapViewEventListener(this)
+        mapView.setPOIItemEventListener(this)
+
+        val intent = Intent(this, TestpsActivity::class.java)
+        startActivity(intent)
     }
+}
+
+private fun MapView.setPOIItemEventListener(mapsActivity: MapsActivity) {
+
+}
+
+private fun MapView.setMapViewEventListener(mapsActivity: MapsActivity) {
+
 }
