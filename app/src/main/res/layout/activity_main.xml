@@ -32,16 +32,29 @@
         />
 
     <Button
-        android:id="@+id/btn2"
-        android:layout_width="198dp"
+        android:id="@+id/btn_socket"
+        android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:layout_gravity="bottom|center"
-        android:layout_margin="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="소켓 통신 테스트"
+        android:textColor="#FAFA1B"
+        android:textSize="30dp"
+        android:translationZ="10dp"
+        android:layout_marginTop="130dp"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
         android:background="@drawable/custom_button"
         android:text="관리자 호출"
         android:textColor="#FAFA1B"
         android:textSize="30dp"
         android:translationZ="10dp"
+        android:layout_marginTop="260dp"
         />
 
 </FrameLayout>

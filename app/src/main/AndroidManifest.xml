@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Seloco1111"
         android:usesCleartextTraffic="true">
-        <activity android:name=".TestpsActivity"></activity>
+
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
@@ -27,11 +27,12 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".LiveParkinglot" />
+        <activity android:name=".LiveParkinglot" android:label="실시간 주차장 확인"/>
+        <activity android:name=".TestpsActivity" android:label="주차면 선택"/>
+        <activity android:name=".SocketTest" android:label="소켓 통신 예시"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
