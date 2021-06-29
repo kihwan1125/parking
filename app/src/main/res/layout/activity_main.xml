@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
@@ -18,9 +17,6 @@
         android:textColor="#FAFA1B"
         android:textSize="40dp"
         android:translationZ="100dp" />
-
-
-
     <TextView
         android:layout_width="309dp"
         android:layout_height="100dp"
@@ -28,9 +24,7 @@
         android:layout_marginTop="130dp"
         android:drawableTop="@drawable/seloco_right"
         android:gravity="center"
-
         />
-
     <Button
         android:id="@+id/btn_socket"
         android:layout_width="wrap_content"
@@ -43,18 +37,15 @@
         android:translationZ="10dp"
         android:layout_marginTop="130dp"
         />
-
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_gravity="center"
+        android:layout_marginTop="260dp"
         android:background="@drawable/custom_button"
         android:text="관리자 호출"
         android:textColor="#FAFA1B"
         android:textSize="30dp"
-        android:translationZ="10dp"
-        android:layout_marginTop="260dp"
-        />
-
+        android:translationZ="10dp" />
 </FrameLayout>

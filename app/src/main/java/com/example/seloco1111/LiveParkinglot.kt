@@ -21,6 +21,11 @@ class LiveParkinglot: AppCompatActivity() {
             val intent = Intent(this, TestpsActivity::class.java)
             startActivity(intent)
         })
+        val btn3 = findViewById<Button>(R.id.btn3)as Button
+        btn3.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+        })
     }
 
 }

@@ -72,7 +72,8 @@ class SocketTest : AppCompatActivity() {
                             val uEnteredTime = uIndex.getString("entered_time")
                             val uElapsedTime = uIndex.getString("elapsed_time")
                             val uFee = uIndex.getString("fee")
-                            strData += "[$i]\n주차가능: $uAvailabe\n차번호: $uCarNumber\n입차시간: $uEnteredTime\n출차시간: $uElapsedTime\n주차요금: $uFee\n\n"
+                            strData += "[$i]\n주차가능: $uAvailabe\n차번호: $uCarNumber\n입차시간: " +
+                                    "$uEnteredTime\n출차시간: $uElapsedTime\n주차요금: $uFee\n\n"
                         }
                         runOnUiThread(Runnable {
                             recv!!.text = strData
@@ -84,7 +85,6 @@ class SocketTest : AppCompatActivity() {
             // 소켓 접속 시도, 버퍼생성
             checkUpdate.start()
         }
-
         btn_cnct!!.setOnClickListener(View.OnClickListener {
             try{
                 connect()
@@ -95,6 +95,5 @@ class SocketTest : AppCompatActivity() {
         })
 
     }
-
 
 }

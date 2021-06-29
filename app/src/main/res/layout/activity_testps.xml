@@ -17,12 +17,12 @@
             android:layout_gravity="center"
             android:textAlignment="center"
             android:text="원하는 층수를 고르세요"
+            android:gravity="center"
             android:textSize="40dp"
             android:textColor="@color/black"
             android:id="@+id/txtvw_choose"/>
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,7 +51,6 @@
 
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="600dp"

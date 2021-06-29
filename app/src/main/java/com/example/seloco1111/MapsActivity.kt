@@ -18,14 +18,15 @@ class MapsActivity : AppCompatActivity(){
 
         val mapView = MapView(this)
         val mapViewContainer = findViewById<View>(R.id.mapView) as RelativeLayout
-        mapViewContainer.addView(mapView)
+        //runOnUiThread(Runnable {
+            mapViewContainer.addView(mapView)
+        //})
 
 
         mapView.setMapViewEventListener(this)
         mapView.setPOIItemEventListener(this)
 
-        val intent = Intent(this, TestpsActivity::class.java)
-        startActivity(intent)
+
     }
 }
 

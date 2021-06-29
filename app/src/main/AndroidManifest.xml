@@ -8,6 +8,8 @@
     -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +24,7 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="L6KvOiH06bSQj9F4r1PNdFWbVIM=" />
+            android:value="9a6285767a7ccd6522c2c901d888b4ee" />
 
         <activity
             android:name=".MapsActivity"

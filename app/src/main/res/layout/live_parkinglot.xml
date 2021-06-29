@@ -6,44 +6,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-
-    <EditText
-        android:id="@+id/et_space"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:hint="주차하려는 장소"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/et_number"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:inputType="text"
-        android:hint="차량 번호"
-        android:maxLength="8"
-    />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="다음"
+        android:text="주차 공간 확인"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="#388FEA"
         android:textColor="#fff"
         android:textStyle="bold"
-        android:id="@+id/btn3"
-
+        android:id="@+id/btn7"
     />
     <Button
+        android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="해당 주차장으로 설정"
+        android:text="지도 보기"
         android:textStyle="bold"
-        android:id="@+id/btn7"/>
-
-
-
-
-
-
+        />
 </LinearLayout>
